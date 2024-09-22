@@ -34,7 +34,6 @@
 
 /* 2nd Box */
 
-
 .nl-first {
   color: #cccccc;
   margin-left: 15px;
@@ -231,37 +230,3 @@ ul a {
   height: 50px;
   width: 100px;
 }
-
-/* Responsive styles */
-
-@media (max-width: 1024px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .nav-search {
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .hero-section {
-    height: 200px;
-  }
-
-  .box {
-    width: 45%;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-  }
-
-  .search-select, .search-input {
-    width: 100%;
-  }
-
-  .nav-upper, .nav-lower, .nl-first,
-
