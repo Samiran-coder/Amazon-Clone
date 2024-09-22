@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar {
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+.logo {
+  background-image: url("amazon_logo.png");
+  align-items: center;
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+  padding: 10px;
+}
+.border:hover {
+  border: 1.6px solid rgba(255, 255, 255, 0.703);
+  border-radius: 1.5px;
+}
+
+/* 2nd Box */
+
+.nl-first {
+  color: #cccccc;
+  margin-left: 15px;
+}
+.nl-second {
+  color: #ffffff;
+  margin-left: 2px;
+}
+.nav-upper {
+  font-size: 0.8rem;
+}
+.nav-lower {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.location-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* 3rd Box */
+
+.nav-search {
+  justify-content: space-evenly;
+  display: flex;
+  width: 630px;
+  height: 40px;
+  align-items: center;
+  color: black;
+  background-color: rgb(255, 213, 0);
+  border-radius: 5px;
+}
+.nav-search:hover {
+  border: 1.5px solid orange;
+}
+.search-input {
+  width: 530px;
+  height: 35px;
+  border: none;
+  font-size: 1rem;
+}
+.search-select {
+  background-color: #f0eded;
+  color: #130e0e;
+  width: 53px;
+  height: 37px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  text-align: center;
+}
+.search-icon {
+  display: flex;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* cart box  */
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  display: flex;
+}
+.cart-text {
+  margin-top: 15px;
+}
+.pannel {
+  display: flex;
+  background-color: #222f3d;
+  width: 100%;
+}
+.pannel-all,
+.pannel-options {
+  color: white;
+  text-decoration: none;
+
+  padding: 16px;
+}
+
+.op {
+  width: 77%;
+}
+/* hero-section */
+.hero-section {
+  background-image: url("hero.jpg");
+  align-items: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hero-message {
+  background-color: #f5f6f6;
+  color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+  width: 95%;
+  font-size: 0.85rem;
+}
+.hero-message a {
+  text-decoration: none;
+  color: blue;
+}
+/* shop-section */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #93e5f6;
+}
+.box {
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 22.5%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin: 15px;
+}
+.gaming_section {
+  text-wrap: nowrap;
+}
+.pannel-all {
+  display: flex;
+  gap: 5px;
+}
+.box-img {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.box-content {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+.box-content p {
+  color: blue;
+  font-size: 0.8rem;
+}
